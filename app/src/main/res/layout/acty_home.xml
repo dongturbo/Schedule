@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="48.0dip" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@id/llyt_tab_group"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_tabbar_bg"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@color/lucency_black">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom|center">
+
+                    <RadioButton
+                        android:id="@id/rbtn_tab_course"
+                        style="@style/MMTabButton"
+                        android:checked="true"
+                        android:drawablePadding="-2.0dip"
+                        android:drawableTop="@drawable/tab_course_selector"
+                        android:text="@string/tab_course" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab_left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top|center"
+                    android:paddingLeft="30.0dip"
+                    android:paddingTop="4.0dip">
+
+                    <TextView
+                        android:id="@id/txv_tab_course_unread"
+                        style="@style/tips_big"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@id/imgv_tab_course_unread_tip"
+                        style="@style/tips_little"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@null">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom|center">
+
+                    <RadioButton
+                        android:id="@id/rbtn_tab_found"
+                        style="@style/MMTabButton"
+                        android:checked="false"
+                        android:drawablePadding="-2.0dip"
+                        android:drawableTop="@drawable/tab_found_selector"
+                        android:text="@string/tab_found" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab_center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top|center"
+                    android:paddingLeft="30.0dip"
+                    android:paddingTop="4.0dip">
+
+                    <TextView
+                        android:id="@id/txv_tab_found_unread"
+                        style="@style/tips_big"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@id/imgv_tab_found_unread_tip"
+                        style="@style/tips_little"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@null">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom|center">
+
+                    <RadioButton
+                        android:id="@id/rbtn_tab_settings"
+                        style="@style/MMTabButton"
+                        android:drawablePadding="-2.0dip"
+                        android:drawableTop="@drawable/tab_settings_selector"
+                        android:text="@string/tab_settings" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top|center"
+                    android:paddingLeft="30.0dip"
+                    android:paddingRight="10.0dip"
+                    android:paddingTop="4.0dip">
+
+                    <TextView
+                        android:id="@id/txv_tab_settings_unread"
+                        style="@style/tips_big"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@id/imgv_tab_settings_unread_tip"
+                        style="@style/tips_little"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/llyt_tab_group"
+            android:background="@color/lucency_black"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_tabbar_bg_shadow" />
+    </RelativeLayout>
+</TabHost>

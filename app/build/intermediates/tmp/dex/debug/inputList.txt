@@ -1,0 +1,4 @@
+C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\classes\debug
+C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\pre-dexed\debug\wheel-f6a010270bd824e26103d06f7cd1351708d38be4.jar
+C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-065fb97b3a3c3cc83c472ddd41022682dd9caac4.jar
+C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-3c8567dd8e09309f3cadf0eb82624c18d1edf7c0.jar
