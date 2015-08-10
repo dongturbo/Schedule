@@ -165,4 +165,4 @@
             android:scaleType="fitXY"
             android:src="@drawable/ic_tabbar_bg_shadow" />
     </RelativeLayout>
-</TabHost><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/layout/acty_home.xml -->
+</TabHost><!-- From: file:/D:/Schedule/app/src/main/res/layout/acty_home.xml -->

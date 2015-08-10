@@ -13,4 +13,4 @@
     <item android:duration="83" android:drawable="@drawable/ic_loading_black_10" />
     <item android:duration="83" android:drawable="@drawable/ic_loading_black_11" />
     <item android:duration="83" android:drawable="@drawable/ic_loading_black_12" />
-</animation-list><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/drawable/progress_drawable.xml -->
+</animation-list><!-- From: file:/D:/Schedule/app/src/main/res/drawable/progress_drawable.xml -->

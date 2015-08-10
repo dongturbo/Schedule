@@ -2,25 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\src\main\java\simple-xml-2.7.1.jar"
+        jar="D:\Schedule\app\src\main\java\simple-xml-2.7.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="083623424bcfa03bd598e709765bad0816c2375d">
-        <dex dex="C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-065fb97b3a3c3cc83c472ddd41022682dd9caac4.jar" />
+        <dex dex="D:\Schedule\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-649187ac6ed9bdeeaa81cbf32d29c35b12a8c0cf.jar" />
     </item>
     <item
-        jar="C:\Users\dong\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\博\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-3c8567dd8e09309f3cadf0eb82624c18d1edf7c0.jar" />
+        <dex dex="C:\Users\博\Desktop\SourceCode\Schedule\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ff482bbbf5eecdc7d7d3bcf6ac9f53da8882dabd.jar" />
     </item>
     <item
-        jar="C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\libs\wheel.jar"
+        jar="C:\Users\博\Desktop\SourceCode\Schedule\app\libs\wheel.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="69c8e690aebe21dedaac30b141242ba0d9ae2b4d">
-        <dex dex="C:\Users\dong\OneDrive\SourceCode\Androidproject\schedule\app\build\intermediates\pre-dexed\debug\wheel-f6a010270bd824e26103d06f7cd1351708d38be4.jar" />
+        <dex dex="C:\Users\博\Desktop\SourceCode\Schedule\app\build\intermediates\pre-dexed\debug\wheel-e7cb195dbe33115c2396e0a6ec3e96053fead06a.jar" />
+    </item>
+    <item
+        jar="C:\Users\博\Desktop\SourceCode\Schedule\app\src\main\java\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\Users\博\Desktop\SourceCode\Schedule\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-52bcad633a3fd7ff1b4e6a53ecaf0694ebfabaa6.jar" />
+    </item>
+    <item
+        jar="D:\Schedule\app\libs\wheel.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69c8e690aebe21dedaac30b141242ba0d9ae2b4d">
+        <dex dex="D:\Schedule\app\build\intermediates\pre-dexed\debug\wheel-1052435d2a31ede673d63da3e52f31a173e7cc65.jar" />
     </item>
 
 </items>

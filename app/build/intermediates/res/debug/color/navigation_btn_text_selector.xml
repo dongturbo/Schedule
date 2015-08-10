@@ -5,4 +5,4 @@
     <item android:state_selected="true" android:color="@color/navigation_title_text_blue_disable" />
     <item android:state_pressed="true" android:color="@color/navigation_btn_text_pressed" />
     <item android:color="@color/navigation_btn_text" />
-</selector><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/color/navigation_btn_text_selector.xml -->
+</selector><!-- From: file:/D:/Schedule/app/src/main/res/color/navigation_btn_text_selector.xml -->

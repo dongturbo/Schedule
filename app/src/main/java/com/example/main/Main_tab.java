@@ -50,7 +50,7 @@ public class Main_tab extends TabActivity {
         //往tabwidget中添加tab
         tabhost=getTabHost();
         tabhost.addTab(tabhost.newTabSpec("tag1").setIndicator("0").setContent(new Intent(this,Schedule_main.class)));
-        //tabhost.addTab(tabhost.newTabSpec("tag2").setIndicator("1").setContent(new Intent(this,)));
+        tabhost.addTab(tabhost.newTabSpec("tag2").setIndicator("1").setContent(new Intent(this,SearchCourse.class)));
         tabhost.addTab(tabhost.newTabSpec("tag3").setIndicator("2").setContent(new Intent(this, SettingActivity.class)));
 
         tabhost.setCurrentTab(0);
@@ -73,11 +73,11 @@ public class Main_tab extends TabActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(b){
-                    //tabhost.setCurrentTabByTag("tag1");
+                    tabhost.setCurrentTabByTag("tag2");
                     tab_table.setChecked(false);
                     tab_me.setChecked(false);
-                    Toast toast=Toast.makeText(Main_tab.this, "此功能正在开发当中。。。。",Toast.LENGTH_SHORT);
-                    toast.show();
+//                    Toast toast=Toast.makeText(Main_tab.this, "此功能正在开发当中。。。。",Toast.LENGTH_SHORT);
+//                    toast.show();
                 }
 
             }

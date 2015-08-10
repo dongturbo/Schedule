@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/D:/Schedule/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="about_us">#fff5f5f5</color>
     <color name="about_us_bottom_txt">#ff333333</color>
@@ -257,11 +257,11 @@
     <color name="widget_opaque_10_black">#19000000</color>
     <color name="widget_opaque_4_black">#0a000000</color>
     <color name="widget_title_text">#ff518ec7</color>
-    <!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/D:/Schedule/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/D:/Schedule/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="CropOverlayView" type="id">false</item>
     <item name="ImageView_image" type="id">false</item>
@@ -1340,7 +1340,7 @@
     <item name="widget_view_course_1" type="id">false</item>
     <item name="widget_view_course_2" type="id">false</item>
     <item name="widget_view_course_3" type="id">false</item>
-    <!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/Schedule/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="aboutAuthor">关于作者</string>
     <string name="action_settings">Settings</string>
@@ -1417,7 +1417,7 @@
     <string name="tips_rub_search_empty_text">暂时查询不到你想要的课程</string>
     <string name="user_login_account_tips">学校教务系统账号</string>
     <string name="user_login_password_tips">请输入您的密码</string>
-    <!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/Schedule/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

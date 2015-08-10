@@ -3,4 +3,4 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@drawable/ic_dlg_btn_right_press" />
     <item android:drawable="@color/lucency_white" />
-</selector><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/drawable/dlg_btn_right_selector.xml -->
+</selector><!-- From: file:/D:/Schedule/app/src/main/res/drawable/dlg_btn_right_selector.xml -->

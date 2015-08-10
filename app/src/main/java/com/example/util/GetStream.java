@@ -8,7 +8,8 @@ import java.net.URL;
 import java.net.URLEncoder;
 
 public class GetStream {
-	private String  urlStr="http://course.chinacloudsites.cn/api/course";
+	//private String  urlStr="http://course.chinacloudsites.cn/api/course";
+	private String  urlStr="http://jasine.gear.host/api/course";
 	public  InputStream getStream(String name,String pwd){
 		StringBuilder str=new StringBuilder(urlStr);
         Log.i("zifu",urlStr);

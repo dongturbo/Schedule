@@ -4,4 +4,4 @@
     <item android:state_enabled="false" android:drawable="@drawable/ic_common_white_unclick" />
     <item android:state_pressed="true" android:drawable="@drawable/ic_common_white_press" />
     <item android:drawable="@drawable/ic_common_white_normal" />
-</selector><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/drawable/common_white_selector.xml -->
+</selector><!-- From: file:/D:/Schedule/app/src/main/res/drawable/common_white_selector.xml -->

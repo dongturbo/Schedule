@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/ic_btn_add_course_green_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/ic_btn_add_course_green_normal" android:state_pressed="false"/>
 
-</selector><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/drawable/btn_select_add_course_selector.xml -->
+</selector><!-- From: file:/D:/Schedule/app/src/main/res/drawable/btn_select_add_course_selector.xml -->

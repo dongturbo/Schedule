@@ -3,4 +3,4 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/ic_tabbar_settings_pressed" />
     <item android:drawable="@drawable/ic_tabbar_settings_normal" />
-</selector><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/drawable-xhdpi/tab_settings_selector.xml -->
+</selector><!-- From: file:/D:/Schedule/app/src/main/res/drawable-xhdpi/tab_settings_selector.xml -->

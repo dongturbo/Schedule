@@ -5,4 +5,4 @@
     <item android:state_selected="true" android:drawable="@drawable/ic_title_week_set_icon_pressed" />
     <item android:state_pressed="true" android:drawable="@drawable/ic_title_week_set_icon_pressed" />
     <item android:drawable="@drawable/ic_title_week_set_icon" />
-</selector><!-- From: file:/C:/Users/dong/OneDrive/SourceCode/Androidproject/schedule/app/src/main/res/drawable/navigation_corner_selector.xml -->
+</selector><!-- From: file:/D:/Schedule/app/src/main/res/drawable/navigation_corner_selector.xml -->
